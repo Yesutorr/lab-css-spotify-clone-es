@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logostyle {
+  width: 150px;
+}
+
+.container-nav {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-family: system-ui;
+  font-weight: lighter;
+}
+.gap-nav {
+  gap: 35px;
+}
+
+.header {
+  background-image: url(/images/landing.jpg);
+  background-size: 100vw;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  padding-bottom: 50px;
+}
+
+.header p {
+  color: white;
+  font-family: system-ui;
+  font-size: 30px;
+  word-spacing: 1px;
+  letter-spacing: 1.5px;
+  line-height: 15px;
+  font-weight: lighter;
+}
+
+.whats-on {
+    width: 100vw;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.whats-on h2 {
+    font-size: 35px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #1ab16a;
+    text-underline-offset: 10px; 
+    text-decoration-thickness: 3.1px; 
+
+}
+
+.container-whatson {
+  height: 300px;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.iconstyle {
+    width: 150px;
+}
+
+.box h3 {
+    color:#1ab16a;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.box p {
+font-family: system-ui;
+font-weight: lighter;
+}
+
+.aling-text2 {
+  text-align: center;
+}
+
+.container-end {
+  background-color: #1ab16a;
+  background-image: url(/images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+  height: 550px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-appstyle {
+  width: 250px;
+}
+
+.edit-text h4 {
+color: white;
+font-size: 35px;
+font-family: sans-serif;
+text-decoration: underline;
+text-decoration-color: white;
+text-underline-offset: 10px; 
+text-decoration-thickness: 3.1px; 
+line-height: 70px
+
+}
+
+.edit-text h5 {
+  color: white;
+  font-size: 25px;
+  line-height: 70px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+.edit-text p {
+  color: white;
+  font-family: system-ui;
+}
+
+.edit-text {
+  height: 550px;}
+  /*background-color: burlywood;  
